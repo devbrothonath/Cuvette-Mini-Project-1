@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Inter;
+  /* background-color: red; */
+}
+
+h1 {
+  color: #282828;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  margin-top: 25px;
+}
+
+input {
+  position: relative;
+  border-radius: 8px;
+  border: 4px solid #000;
+  background: #fff;
+  width: 315px;
+  padding: 8px 50px 8px 20px;
+  margin: 15px 10px 15px 0;
+  color: #888;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background: #282828;
+  width: 200px;
+  padding: 14px 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 190%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main {
+  background-color: #ffcd9e;
+  width: auto;
+  /* height: 546px; */
+  height: 71%;
+  display: flex;
+  flex-direction: row;
+}
+
+footer {
+  background-color: #282828;
+  width: auto;
+  /* height: 225px; */
+  height: 29%;
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  width: 50vw;
+  padding: 40px 0px 50px 140px;
+}
+
+.text {
+  max-width: 470px;
+  width: auto;
+  color: #484848;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  margin: 20px 0;
+}
+
+.Bold {
+  color: #282828;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 160%;
+  padding: 10px 0;
+  margin: 6px 0;
+}
+
+.safety {
+  position: absolute;
+  margin: 0 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.pageLinks,
+.socialLinks {
+  width: 50vw;
+  padding: 15px 0 50px;
+}
+
+.pageLinks {
+  justify-content: flex-start;
+  padding-left: 160px;
+}
+
+.socialLinks {
+  justify-content: flex-end;
+  padding-right: 160px;
+}
+
+.socials {
+  justify-content: flex-end;
+  direction: rtl;
+  flex-direction: row;
+}
+
+#human {
+  height: 470px;
+  width: 470px;
+  margin: 0px 37px 0 100px;
+}
+
+#insta,
+#linked {
+  width: 30px;
+  height: 28px;
+  cursor: pointer;
+}
